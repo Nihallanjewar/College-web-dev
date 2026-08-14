@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>T&P Registration</h1>
+</head>
+
+<hr>
+
+<body>
+    <label>First Name:</label><br>
+    <input type="text" placeholder="Enter First Name" required><br><br>
+
+    <label>Middle Name:</label><br>
+    <input type="text" placeholder="Enter Middle Name" required><br><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" placeholder="Enter Last Name" required><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" placeholder="Enter DoB" required><br><br>
+    
+    <label>Roll Number:</label><br>
+    <input type="number" placeholder="Enter Roll Number" min="1" max="100" required><br><br>
+
+    <label>Department:</label><br>
+    <select name="Department" required>
+        <option value="">--Select Department--</option>
+        <option value="CSE">Computer Science and Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Chemical Engineering">Chemical Engineering</option>
+    </select><br><br>
+
+    <label>Select Gender:</label><br><br>
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Others">Others
+
+    <h3>Semester-wise Marks</h3>
+
+    <label>Semester 1:</label>
+    <input type="number" placeholder="Enter Marks" min="0" max="100" required><br><br>
+
+    <label>Semester 2:</label>
+    <input type="number" placeholder="Enter Marks" min="0" max="100" required><br><br>
+    
+    <label>Semester 3:</label>
+    <input type="number" placeholder="Enter Marks" min="0" max="100" required><br><br>
+
+    <label>Semester 4:</label>
+    <input type="number" placeholder="Enter Marks" min="0" max="100" required><br><br>
+
+    <label>Select Technical Skills:</label><br>
+    <input type="checkbox" name="skills" value="C">C
+    <input type="checkbox" name="skills" value="C++">C++
+    <input type="checkbox" name="skills" value="C#">C#
+    <input type="checkbox" name="skills" value="Python">Python
+    <input type="checkbox" name="skills" value="HTML">HTML<br><br>
+
+    <label>Upload Resume:</label><br>
+    <input type="file" accept=".pdf, .jpg, .jpeg, .png"><br><br>
+
+    <label>Other Information:</label><br>
+    <textarea id="Other Information" rows="4" cols="40"></textarea><br><br>
+
+    <input type="checkbox" name="terms" value="Accept Terms">Accept Terms<br><br>
+
+    <input type="submit" value="submit">
+    <input type="reset" value="clear">
+
+    <head>
+        <h1>T&P Registration Details:</h1>
+    </head>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Particulars</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>First Name</td>
+            <td>Nihal</td>
+            
+        </tr>
+
+        <tr>
+            <td>Middle Name</td>
+            <td>Rahul</td>
+        </tr>
+
+        <tr>
+            <td>Last Name</td>
+            <td>Lanjewar</td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td>01-02-2008</td>
+        </tr>
+
+        <tr>
+            <td>Roll Number</td>
+            <td>15</td>
+        </tr>
+
+        <tr>
+            <td>Department</td>
+            <td>Computer Scienece and Engineering</td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>Male</td>
+        </tr>
+
+        <tr>
+            <td>Semester 1 Marks</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>Semester 2 Marks</td>
+            <td>88</td>
+        </tr>
+
+        <tr>
+            <td>Semester 3 Marks</td>
+            <td>80</td>
+        </tr>
+
+        <tr>
+            <td>Semester 4 Marks</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Technical skills</td>
+            <td>C, C++, Python</td>
+        </tr>
+
+        <tr>
+            <td>Other Information</td>
+            <td>I am a dedicated and hardworking student seeking placement oppurtinities in<br>a reputed organization</td>
+        </tr>
+
+        <tr>
+            <td>Terms Accepted</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+</body>
+
+</html>
