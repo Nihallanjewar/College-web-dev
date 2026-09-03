@@ -1,0 +1,17 @@
+    body{
+        background-color: black;
+    }
+    p {
+        color: aqua;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h1 {
+        color: bisque;
+        text-align: center;
+    }
+
+    h2 {
+        color: violet;
+        text-align: left;
+    }
